@@ -1,0 +1,2 @@
+# WTTD
+Exercises
