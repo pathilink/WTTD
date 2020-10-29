@@ -1,5 +1,5 @@
 print('Begin', __name__)
-import proga 
+import proga # nome do módulo é o nome do arquivo pq não é entry point
 
 print('Define fB')
 def fB():

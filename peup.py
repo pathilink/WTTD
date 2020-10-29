@@ -15,19 +15,24 @@ def main():
 
     for food in foods:
         print('I like to eat', food)
+        print('I ate', food)
 
     print('Count to ten:')
     for i in range(1, 11):
+        # pass # declara um bloco vazio
         print(i)
+        print('Opa')
 
 def foo(a, b):
     value = a + b 
 
-    print('%s plus %s is equal to %s' % (a, b, value))
+    print('%s plus %s is equal to %s' % (
+        a, b, value))
 
     if value < 50:
         print('foo')
-    elif (value >= 50) and ((a == 42) or (b == 24)):
+    elif (value >= 50) and \
+        ((a == 42) or (b == 24)):
         print('bar')
     else:
         print('moo')
