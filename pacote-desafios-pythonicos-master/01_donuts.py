@@ -11,13 +11,7 @@ e donuts(23) retorna 'Number of donuts: many'
 
 def donuts(count):
     # +++ SUA SOLUÇÃO +++
-    '''
-    print('How many donuts do you eat? ')
-    n = int(input('> '))
-    count = 'many' if n >= 10 else n
 
-    return f'Number of donuts: {count}'
-    '''
     count = "many" if count >= 10 else count
     return f'Number of donuts: {count}'
 
